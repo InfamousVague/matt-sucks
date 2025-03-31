@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+    padding: calc(var(--padding) * 2) calc(var(--padding) * 4);
+    width: calc(100% - (var(--padding) * 8));
+    display: inline-flex;
+    gap: 8rem;
+    flex-direction: column;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    overflow-y: scroll;
+    max-width: 1200px;
+    position: relative;
+    
+}
+html {
+    background: radial-gradient(circle, rgba(22,28,33,1) 0%, rgba(14,18,21,1) 100%); 
+    display: inline-flex;
+}
+
+p, button {
+    color: var(--cream);
+    text-shadow: 0 0 1rem var(--cream-alpha);
+    margin: 0;
+}
+
+b {
+    color: rgb(169, 235, 246);
+}
+
+.gradient-text {
+    background: radial-gradient(circle farthest-corner at center center, #00ffae 0%, rgb(40, 218, 249) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+  

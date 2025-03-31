@@ -11,3 +11,7 @@
     "Hiring & Interviews"
 ]} />
 <Works />
+
+<div id="work"></div>
+
+<div id="contact"></div>
