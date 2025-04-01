@@ -15,7 +15,12 @@
     <div class="right">
         <div id="about"></div>
 
-        <img src="/splash.png" alt="">
+        <div class="splash">
+            <img src="/matt_normal.png" alt="">
+
+            <img src="/matt_anime.png" class="anime" alt="">
+
+        </div>
     </div>
 </div>
 
@@ -48,9 +53,30 @@
         width: 50%;
         display: inline-flex;
         justify-content: flex-end;
-        img {
+
+        .splash {
+            position: relative;
             width: 100%;
+            height: 600px;
+            img {
+                height: 600px;
+                position: absolute;
+                margin: 0 auto;
+                right: 0;
+
+
+                &.anime {
+                    opacity: 1;
+                    &:hover {
+                        opacity: 0;
+                        transition: opacity .55s ease-in-out;
+                        -moz-transition: opacity .55s ease-in-out;
+                        -webkit-transition: opacity .55s ease-in-out;
+                    }
+                }
+            }
         }
+    
     }
 }
 

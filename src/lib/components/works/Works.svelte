@@ -55,7 +55,7 @@
 <div id="works">
     <div id="history"></div>
 
-    <h1>Notable History</h1>
+    <h2>Notable History</h2>
     
     <Work title={satellite.title} description={satellite.description} position={satellite.position} photo={satellite.photo} date={satellite.date} />
     <Work title={lootsafe.title} description={lootsafe.description} position={lootsafe.position} photo={lootsafe.photo} date={lootsafe.date} />
@@ -65,10 +65,9 @@
 
 <style lang="scss">
     #works {
-        h1 {
-            font-size: 3rem;
-            font-weight: bolder;
+        h2 {
             color: var(--cream);
+            font-size: 2rem;
         }
     }
 </style>

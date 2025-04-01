@@ -23,6 +23,11 @@ p, button {
     margin: 0;
 }
 
+h2 {
+    color: var(--cream);
+    font-size: 2rem;
+}
+
 b {
     color: rgb(169, 235, 246);
 }

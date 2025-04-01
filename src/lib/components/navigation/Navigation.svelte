@@ -11,11 +11,14 @@
         <a href="#about" class="nav-item">
             About
         </a>
+        <a href="#skills" class="nav-item">
+            Skills
+        </a>
         <a href="#history" class="nav-item">
             History
         </a>
-        <a href="#work" class="nav-item">
-            Work
+        <a href="#socials" class="nav-item">
+            Socials
         </a>
         <a  href="#contact" class="nav-item">
             Contact
